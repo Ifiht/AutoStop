@@ -1,0 +1,5 @@
+name: AutoStop
+version: '0.0.1'
+main: org.evlis.autoStop.AutoStop
+api-version: '1.21'
+load: STARTUP
