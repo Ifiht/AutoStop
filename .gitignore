@@ -21,7 +21,8 @@ gradle-app.setting
 .classpath
 
 # Run-Task
-run/
+run/*
+!run/eula.txt
 
 # IntelliJ
 out/
