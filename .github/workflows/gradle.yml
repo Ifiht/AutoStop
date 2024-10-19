@@ -36,7 +36,10 @@ jobs:
     - name: Build with Gradle Wrapper
       run: ./gradlew build
 
-    - name: Build with Gradle Wrapper
+    - name: Clean the Plugin Cache
+      run: ./gradlew cleanPaperPluginsCache
+
+    - name: Run a PaperMC Server
       run: ./gradlew runServer
       
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
